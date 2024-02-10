@@ -1,0 +1,42 @@
+.overview {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    justify-content: center;
+    width: 1200px;
+}
+
+.overviewTable {
+    width: 100%;
+}
+.overviewTableInput{
+    height: 15px;
+    width: 15x;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    background-color: #DEEAFA;
+    font-size: 13px;
+}
+
+td {
+    /* border: 1px solid #ccc; */
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+width: calc((100% - 30px) / 5);
+}
